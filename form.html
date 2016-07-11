@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dummy Form</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <form>
+      <label>Name
+        <input type="text" placeholder="Item Name"/>
+      </label>
+      <label>Quantity
+        <input type="number" value="0"/>
+      </label>
+      <fieldset>
+        <h4>Qualities</h4>
+        <label>Sturdy
+          <input type="checkbox" name="qualities" value="sturdy"/>
+        </label>
+        <label>Salty
+          <input type="checkbox" name="qualities" value="salty" checked="checked"/>
+        </label>
+        <label>Vintage
+          <input type="checkbox" name="qualities" value="vintage"/>
+        </label>
+      </fieldset>
+      <fieldset>
+        <h4>Condition</h4>
+        <label>Eh, okay
+          <input type="radio" name="condition" value="okay"/>
+        </label>
+        <label>Not bad
+          <input type="radio" name="condition" value="meh"/>
+        </label>
+        <label>Seen worse
+          <input type="radio" name="condition" value="ugh" checked="checked"/>
+        </label>
+      </fieldset>
+    </form>
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
