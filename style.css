@@ -1,32 +1,38 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
 body {
-  background-color: white;
+  background-color: #fff;
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 12px;
 }
 
+.presidents {
+  border-collapse: collapse;
+}
+
 td, th {
   padding: 0.5em;
-  border: 1px solid #999;
+  border: 1px solid #E2E2E2;
 }
 
 th {
-  background-color: #CCC;
+  background-color: #F0F0EE;
 }
 
 .red {
-  background-color: red;
+  background-color: #FC174B;
+  color: #fff;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: #F8FB27;
 }
 
 .blue {
-  background-color: blue;
+  background-color: #5517FC;
+  color: #fff;
 }
 
 .green {
-  background-color: green;
+  background-color: #17FC55;
 }
